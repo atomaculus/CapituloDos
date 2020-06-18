@@ -1,0 +1,58 @@
+.barra {display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    margin: 20px 0px;}
+
+nav {display: flex;
+ justify-content: flex-end;
+ background: black;
+ padding: 10px 20px;
+ border-radius: 5px;
+ box-shadow: 10px 10px 4px grey;
+ margin: 0px 2px;}
+ 
+ 
+.barra:hover {background: rgb(214, 141, 214);
+          border-radius: 3px;}
+
+#fotologo {margin-right: 500px;}
+
+#navboton {display: none;}
+
+@media (max-width: 600px) {
+nav {flex-direction: column;}
+#navboton {display: inline-block;}
+.desaparece {display: none;}
+}
+
+.seccioncontacto {background: rgba(128, 128, 128, 0.356);
+              border-radius: 5px}
+.direccion {text-decoration: none;
+        color: rgb(216, 63, 247);
+        padding: 10px 0px;}
+.direccion:hover {text-decoration: underline;}
+
+
+
+
+body {background-color: white;
+  color: black; 
+  text-align: justify;
+  margin: 0px 10px;}
+
+#introbody {text-align: center;}
+#oficinas {display: inline-block;
+       width: 500px;
+       height: 100px;
+      }
+#contactenos {display: inline-block;
+          float: none;
+          width: 500px;
+       height: 100px;}
+.seccioncontacto {display: flex;}
+.OfyForm {width: 50%;}
+.botones {display: block;
+      color:aqua;
+      /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
+      }

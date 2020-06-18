@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>probando probando, se escucha?</p>
-    
-</body>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scigolini&Asoc</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head> 
+  <body>
+    <nav>   
+    <a id="fotologo" href="https://scigolini-asoc.netlify.app/"><img src="/LogoScigoliniAsoc.jpg" width="300" height="100" alt="Scigolini&Asoc"></a> 
+    <button id="navboton" onclick="accion()">MENU</button>
+    <a class="barra desaparece" href="/profesionales.html">PROFESIONALES</a>
+    <a class="barra desaparece" href="/areaspractica.html">AREAS DE PRACTICA</a>  
+    <a class="barra desaparece" href="/conacto.html">CONTACTO</a>
+    <a class="barra desaparece" href="/index.html">INICIO</a>   
+    </nav>
+   
+    <h1 id="introbody">ESTUDIO JURIDICO SCIGOLINI&ASOC</h1>  
+     <br>
+    <p>Aca iria descripcion/informacion del estudio o lo que querramos poner: Estudio especializado en Derecho de Familia, Divorcios,   Sucesiones y Mediaciones.
+       Somos un equipo de profesionales especializados y abocados apasionadamente a la práctica del derecho. Cada profesional se especializa en una rama del derecho en forma exclusiva, por lo que siempre será asesorado por un Especialista en la Materia.
+
+       Estamos preparados para darle al cliente el mejor asesoramiento profesional y la mayor calidad humana.
+
+       El Estudio ha sido fundado hace más de 12 años por la Dra. Alejandra Foti​, titular del estudio, especialista en derecho de familia, egresada de La Universidad de Buenos Aires, quien además es mediadora y coach ontológica profesional: estas dos profesiones adicionales son importantes para poder dar un completo asesoramiento, no solo del marco jurídico sino también para poder ayudar al cliente a que aplique herramientas que lo hagan sentirse fuerte en esta instancia y aplicar las mejores técnicas de negociación, para llegar a los resultados esperados.</p>
+    <section class="seccioncontacto">
+      <div class="OfyForm">
+      <h1> Contacto</h1>
+    <h2>Oficinas en Pilar</h2>
+        <a class="direccion" href="https://www.google.com.ar/maps/place/Las+Camelias+3324,+Del+Viso,+Buenos+Aires/@-34.4377576,-58.7939744,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc9edc57df1eb1:0x7575570519b79628!8m2!3d-34.437762!4d-58.7917857">Las Camelias 3324, Office Park Norte, piso 1 Of°116. Pilar</a>
+         <p>Tel/Fax: 02320-659259</p>
+    <h2>Oficinas en CABA</h2>
+        <a class="direccion" href="https://www.google.com.ar/maps/place/Rodr%C3%ADguez+Pe%C3%B1a+454,+C1048+CABA/@-34.6037078,-58.3932483,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccac1126de465:0xc617ded95ba93c3!8m2!3d-34.6037122!4d-58.3910596">Rodriguez Peña 454, piso 4 Of° B. CABA</a>
+    <br>
+      </div>
+      <div class='OfyForm'>
+    <h2>Contactenos</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label> <input placeholder="Nombre" type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label> <input placeholder="Email" type="email" name="email" /></label>
+      </p>
+      <p>
+          <label> <input placeholder="Telfono" type="text" name="telefono" /></label>
+      </p>
+      <p>
+          <label> <input placeholder="Motivo" type="text" name="motivo" /></label>
+      </p>
+      <p>
+        <label> <textarea  placeholder="Mensaje" name="message" rows="8" cols="30"></textarea></label>
+      </p>
+      <p>
+        <button class="botones" type="submit">Enviar</button>
+      </p>
+    </form>
+      </div>
+  </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.27956158094!2d-58.792193398343684!3d-34.43795222325908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9edc57df1eb1%3A0x7575570519b79628!2sLas%20Camelias%203324%2C%20Del%20Viso%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1591112755802!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0179437620736!2d-58.39324828505233!3d-34.60370776500402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac1126de465%3A0xc617ded95ba93c3!2sRodr%C3%ADguez%20Pe%C3%B1a%20454%2C%20C1048%20CABA!5e0!3m2!1ses!2sar!4v1591423235437!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>         
+    <script src="script.js"></script>
+  </body>
+  
 </html>
