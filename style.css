@@ -55,4 +55,8 @@ body {background-color: white;
 .botones {display: block;
       color:aqua;
       /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
-      }
+}
+
+button {background: greenyellow;
+        color: indigo;
+        padding: 10px;}
