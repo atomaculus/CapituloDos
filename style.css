@@ -1,14 +1,15 @@
 * {font-family: 'Times New Roman', Times, serif;}
 .barra {display: inline-block;
-    padding: 20px 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 20px 0px;}
+        padding: 20px 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 20px 0px;
+        line-height: 50%;}
 
 nav {display: flex;
  justify-content: flex-end;
- background: black;
+ background-color: black;
  padding: 10px 20px;
  border-radius: 5px;
  box-shadow: 10px 10px 4px grey;
@@ -18,7 +19,7 @@ nav {display: flex;
 .barra:hover {background: rgb(214, 141, 214);
           border-radius: 3px;}
 
-#fotologo {margin-right: 500px;}
+#fotologo {margin-right: 475px;}
 
 #navboton {display: none;}
 
@@ -27,6 +28,9 @@ nav {flex-direction: column;}
 #navboton {display: inline-block;}
 .desaparece {display: none;}
 }
+
+#textoppal {font-size: 20px;
+            font-weight: 500;}
 
 .seccioncontacto {background: rgba(128, 128, 128, 0.356);
                   border-radius: 5px;
@@ -43,7 +47,8 @@ body {background-color: white;
   text-align: justify;
   margin: 0px 10px;}
 
-#introbody {text-align: center;}
+#introbody {text-align: center;
+            line-height: 20px;}
 
 #oficinas {display: inline-block;
        width: 500px;
