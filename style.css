@@ -1,11 +1,11 @@
-* {font-family: 'Times New Roman', Times, serif;}
+* {font-family: 'raleway';}
+
 .barra {display: inline-block;
         padding: 20px 20px;
         color: white;
         text-decoration: none;
         font-weight: bold;
-        margin: 20px 0px;
-        line-height: 30%;}
+        margin: 20px 0px;}
 
 nav {display: flex;
  justify-content: flex-end;
@@ -30,7 +30,8 @@ nav {flex-direction: column;}
 }
 
 #textoppal {font-size: 20px;
-            font-weight: 500;}
+            font-weight: 500;
+            padding: 0px 100px;}
 
 .seccioncontacto {background: rgba(128, 128, 128, 0.356);
                   border-radius: 5px;
@@ -48,8 +49,12 @@ body {background-color: white;
   text-align: justify;
   margin: 0px 10px;}
 
-#introbody {text-align: center;
-            line-height: 20px;}
+.introbody {text-align: center;
+            margin: 10px 0px;
+            font-weight: bold;}
+.arriba { font-size: 40px;}
+.amp {color: purple;}
+.abajo {font-size: 20px;}
 
 #oficinas {display: inline-block;
        width: 500px;
