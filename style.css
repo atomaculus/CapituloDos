@@ -29,6 +29,18 @@ nav {flex-direction: column;}
 .desaparece {display: none;}
 }
 
+body {background-color: white;
+        color: black; 
+        text-align: justify;
+        margin: 0px 10px;}
+      
+        .introbody {text-align: center;
+                  margin: 10px 0px;
+                  font-weight: bold;}
+        .arriba { font-size: 40px;}
+        .amp {color: purple;}
+        .abajo {font-size: 20px;}
+
 #textoppal {font-size: 20px;
             font-weight: 500;
             padding: 0px 100px;}
@@ -36,41 +48,29 @@ nav {flex-direction: column;}
 .seccioncontacto {background: rgba(128, 128, 128, 0.356);
                   border-radius: 5px;
                   padding: 10px;
-                  }
+                  display: flex;}
+#titulocontacto {background-color: rgba(128, 128, 128, 0.356);
+                 margin-bottom: 0px;
+                 padding-bottom: 15px;} este padding no va
+                  
 
 .direccion {text-decoration: none;
+        font-weight: bold;
         color: rgb(216, 63, 247);
         padding: 10px 0px;}
 
-.direccion:hover {text-decoration: underline;}
+.direccion:hover {text-decoration: underline;
+                font-weight: normal;
+                  color: white;
+                background-color: rgb(214, 141, 214);
+                padding: 5px;
+                border-radius: 5px;}
 
-body {background-color: white;
-  color: black; 
-  text-align: justify;
-  margin: 0px 10px;}
 
-.introbody {text-align: center;
-            margin: 10px 0px;
-            font-weight: bold;}
-.arriba { font-size: 40px;}
-.amp {color: purple;}
-.abajo {font-size: 20px;}
+ 
 
-#oficinas {display: inline-block;
-       width: 500px;
-       height: 100px;}
 
- #contactenos {display: inline-block;
-          float: none;
-          width: 500px;
-          height: 100px;}
 
-.seccioncontacto {display: flex;}
-
-.OfyForm {width: 50%;}
-
-.botones {display: block;
-      color:aqua;}
 
 button {background-color: rgb(214, 141, 214);
         color: black;
@@ -82,6 +82,9 @@ button {background-color: rgb(214, 141, 214);
 
 button:hover {background-color: purple;
               color: white;}
+
+.clearfix {float: none;
+           clear: both;}
 
 #mapas p {text-align: center;
           margin: 10px;
