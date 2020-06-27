@@ -56,8 +56,10 @@ body {background-color: white;
 
 .direccion {text-decoration: none;
         font-weight: bold;
-        color: rgb(216, 63, 247);
+        color: rgb(214, 141, 214);
         padding: 10px 0px;}
+
+.direccion:visited {color: rgb(214, 141, 214);}
 
 .direccion:hover {text-decoration: underline;
                 font-weight: normal;
@@ -86,8 +88,9 @@ button:hover {background-color: purple;
 .clearfix {float: none;
            clear: both;}
 
-#mapas p {text-align: center;
-          margin: 10px;
+
+
+#mapas p {margin: 10px 20px;
           display: inline;}
 
 footer {text-align: center;
@@ -95,5 +98,8 @@ footer {text-align: center;
         background-color: black;
         margin-top: 6px;}
 
-footer:hover {background-color: grey;}
+#creador {text-decoration: underline;
+          color: grey;}
+#creador:visited {color: grey;}
+#creador:hover {font-weight: bold;}
 
