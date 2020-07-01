@@ -19,7 +19,15 @@ nav {display: flex;
 .barra:hover {background: rgb(214, 141, 214);
           border-radius: 3px;}
 
-#fotologo {margin-right: 475px;}
+.logo { position: absolute;
+        z-index: 2;
+        top: 9px;
+        left: 100px;
+        width: 302px;
+        height: 102px;
+        color: white;}
+
+ /*#fotologo {margin-right: 475px;} esto al final no lo usaste*/
 
 #navboton {display: none;}
 
@@ -30,9 +38,10 @@ nav {flex-direction: column;}
 }
 
 body {background-color: white;
-        color: black; 
-        text-align: justify;
-        margin: 0px 10px;}
+        color: black;
+        width: 1200px; 
+        margin: 0px auto;
+        text-align: justify;}
       
         .introbody {text-align: center;
                   margin: 10px 0px;
@@ -91,7 +100,8 @@ button:hover {background-color: purple;
 
 
 
-#mapas p {margin: 10px 20px;
+#mapas p {margin: 10px 10px;
+        /* fijate si cambia algooo margin-left: 20px*/;
           display: inline;}
 
 footer {text-align: center;
@@ -103,4 +113,11 @@ footer {text-align: center;
           color: grey;}
 #creador:visited {color: grey;}
 #creador:hover {font-weight: bold;}
+
+/*Style de profesionales*/
+#intropersonas {text-align: center!important;}
+
+.personas{display: inline-flex;
+          margin: 20px;
+          width: 30%;}
 
