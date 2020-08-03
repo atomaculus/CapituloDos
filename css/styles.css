@@ -1,0 +1,217 @@
+* {
+        font-family: 'raleway';
+}
+
+.wrap {
+        width: 1200px;
+        margin: 0px auto;
+}
+
+.barra {
+        display: inline-block;
+        padding: 20px 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px 5px;
+        border-radius: 3px;
+        transition: all 500ms;
+}
+
+nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 0px 2px;
+}
+
+
+.barra:hover {
+        background: #ba4e94;
+        border-radius: 5px;
+}
+
+.logo {
+        position: absolute;
+        z-index: 2;
+        top: 9px;
+        left: 100px;
+        width: 302px;
+        height: 102px;
+        color: white;
+}
+
+/*#fotologo {margin-right: 475px;} esto al final no lo usaste*/
+
+#navboton {
+        display: none;
+}
+
+@media (max-width: 600px) {
+        nav {
+                flex-direction: column;
+        }
+
+        #navboton {
+                display: inline-block;
+        }
+
+        .desaparece {
+                display: none;
+        }
+}
+
+body {
+        background-color: white;
+        color: black;
+        margin: 0px auto;
+        text-align: justify;
+}
+
+#header {
+        width: 100%;
+        height: 120px;
+        background-color: black;
+        border-radius: 5px;
+}
+
+.introbody {
+        text-align: center;
+        margin: 10px 0px;
+        font-weight: bold;
+}
+
+.arriba {
+        font-size: 40px;
+        letter-spacing: 2px;
+}
+
+.amp {
+        color: #ba4e94;
+}
+
+.abajo {
+        font-size: 20px;
+        letter-spacing: 1px;
+}
+
+#textoppal {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 100px;
+}
+
+/*seccion de contacto*/
+#contacto {
+        padding: 10px 0px;
+        background-color: rgb(173, 172, 172);
+        border-radius: 5px;
+}
+
+#contacto h1 {
+        text-align: center;
+}
+
+#oficinas {
+        float: right;
+        margin-right: 160px;
+}
+
+#formulario {
+        margin-left: 160px;
+}
+
+.margen-texto {
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+
+.direccion {
+        text-decoration: none;
+        font-weight: bold;
+        color: #ba4e94;
+        padding: 10px 0px;
+        margin: 10px 0px;
+}
+
+.direccion:visited {
+        color: #ba4e94;
+}
+
+.direccion:hover {
+        text-decoration: underline;
+        font-weight: normal;
+        color: white;
+        background-color: #ba4e94;
+        margin: 10px;
+        padding: 5px 0px 5px 5px;
+        border-radius: 5px;
+}
+
+
+
+
+
+
+
+button {
+        background-color: #ba4e94;
+        color: black;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: bold;
+        border-color: #ba4e94;
+}
+
+button:hover {
+        background-color: purple;
+        color: white;
+}
+
+.clearfix {
+        float: none;
+        clear: both;
+}
+
+
+
+#mapas p {
+        margin: 10px 10px;
+        /* fijate si cambia algooo margin-left: 20px*/
+        ;
+        display: inline;
+}
+
+footer {
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin-top: 6px;
+}
+
+#creador {
+        text-decoration: underline;
+        color: grey;
+}
+
+#creador:visited {
+        color: grey;
+}
+
+#creador:hover {
+        font-weight: bold;
+}
+
+/*Style de profesionales*/
+#intropersonas {
+        text-align: center !important;
+}
+
+.personas {
+        display: inline-flex;
+        margin: 20px;
+        width: 30%;
+}
